@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <title>Web Api</title>
+</head>
+<body>
+    <h1 onclick="Hello('jonas')">Hello World !</h1>
+    <h2 onclick="getCount()">Fale o count</h2>
+    <ul></ul>
+
+    <script> 
+        Hello()
+    </script>
+
+    
+    <script>
+        function oi(){
+            console.log('olá')
+        }
+        oi()
+
+        function Createlist(count, text = "text"){
+            const count = Number(prompt('Fale a quantidade itens da lista: '))
+            let list = "<ul>\n"
+            for (let i = 1; i <= count; i++){
+                list += `   <li>${text} ${i}</li>\n`
+                
+            }
+            list += "</ul>"
+            return list
+
+        }
+        const ulTag = document.querySelector('ul')
+        ulTag.innerHTML = Createlist(count)
+    </script>
+
+</body>
+</html>
