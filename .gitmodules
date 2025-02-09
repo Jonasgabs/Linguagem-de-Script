@@ -1,0 +1,3 @@
+[submodule "whaleQuiz"]
+	path = whaleQuiz
+	url = https://github.com/PauloAnt/lm-projeto-whalebet
