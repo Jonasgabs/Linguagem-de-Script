@@ -1,5 +1,5 @@
-[submodule "whaleQuiz"]
-	path = whaleQuiz
+[submodule "lm-projeto-whalebet"]
+	path = lm-projeto-whalebet
 	url = https://github.com/PauloAnt/lm-projeto-whalebet
 [submodule "ls-projeto-whalequiz"]
 	path = ls-projeto-whalequiz
